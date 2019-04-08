@@ -4,5 +4,5 @@ services:
   nginx:
     build: .
     image: everydayhero/maintenance:latest
-  ports:
-    - "8080:80"
+    ports:
+      - "8080:80"
