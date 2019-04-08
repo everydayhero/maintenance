@@ -3,5 +3,6 @@ version: "3.3"
 services:
   nginx:
     build: .
+    image: everydayhero/maintenance:latest
   ports:
     - "8080:80"
